@@ -8,6 +8,6 @@ WORKDIR /src
 ADD . /src
 RUN npm install
 
-EXPOSE 3001
+EXPOSE 300
 
 CMD npm start
